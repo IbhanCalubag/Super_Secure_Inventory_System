@@ -1,0 +1,307 @@
+[25-Nov-2025 13:44:23 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 13:45:23 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 13:45:39 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such function: NOW in C:\secured-inventory-system\login_process.php:55
+Stack trace:
+#0 C:\secured-inventory-system\login_process.php(55): PDO->prepare('UPDATE users SE...')
+#1 {main}
+  thrown in C:\secured-inventory-system\login_process.php on line 55
+[25-Nov-2025 13:46:27 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 13:46:45 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such function: NOW in C:\secured-inventory-system\login_process.php:55
+Stack trace:
+#0 C:\secured-inventory-system\login_process.php(55): PDO->prepare('UPDATE users SE...')
+#1 {main}
+  thrown in C:\secured-inventory-system\login_process.php on line 55
+[25-Nov-2025 13:53:30 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 13:53:43 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: last_login in C:\secured-inventory-system\login_process.php:55
+Stack trace:
+#0 C:\secured-inventory-system\login_process.php(55): PDO->prepare('UPDATE users SE...')
+#1 {main}
+  thrown in C:\secured-inventory-system\login_process.php on line 55
+[25-Nov-2025 14:03:58 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 14:04:13 UTC] Error updating user login info: SQLSTATE[HY000]: General error: 1 no such column: last_login
+[25-Nov-2025 14:04:13 UTC] Security Event [login_success]: User logged in successfully - User: 2 - IP: 
+[25-Nov-2025 14:04:13 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 14:04:13 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: last_login in C:\secured-inventory-system\index.php:35
+Stack trace:
+#0 C:\secured-inventory-system\index.php(35): PDO->prepare('SELECT name, em...')
+#1 {main}
+  thrown in C:\secured-inventory-system\index.php on line 35
+[25-Nov-2025 14:04:14 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 14:04:14 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: last_login in C:\secured-inventory-system\index.php:35
+Stack trace:
+#0 C:\secured-inventory-system\index.php(35): PDO->prepare('SELECT name, em...')
+#1 {main}
+  thrown in C:\secured-inventory-system\index.php on line 35
+[25-Nov-2025 14:04:30 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 14:04:30 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000]: General error: 1 no such column: last_login in C:\secured-inventory-system\index.php:35
+Stack trace:
+#0 C:\secured-inventory-system\index.php(35): PDO->prepare('SELECT name, em...')
+#1 {main}
+  thrown in C:\secured-inventory-system\index.php on line 35
+[25-Nov-2025 14:04:35 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 14:04:39 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 14:04:42 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 14:04:43 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 14:04:43 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 14:04:56 UTC] Security Event [logout]: User logged out - User: 2 - IP: 
+[25-Nov-2025 14:05:00 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 14:05:01 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 14:05:19 UTC] Security Event [login_failed]: Failed login attempt for email: contigafatima12@gmail.com - User:  - IP: ::1
+[25-Nov-2025 14:05:39 UTC] Security Event [login_failed]: Failed login attempt for email: contigafatima12@gmail.com - User:  - IP: ::1
+[25-Nov-2025 14:06:18 UTC] Security Event [user_registered]: New user registered via email - User: 2 - IP: 
+[25-Nov-2025 14:06:34 UTC] Security Event [login_success]: User logged in successfully - User: 2 - IP: 
+[25-Nov-2025 14:06:34 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 14:06:34 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 14:06:36 UTC] Security Event [logout]: User logged out - User: 2 - IP: 
+[25-Nov-2025 14:06:38 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 14:09:44 UTC] === GOOGLE CALLBACK STARTED ===
+[25-Nov-2025 14:09:44 UTC] Full URL: http://localhost:8080/google_callback.php?error=access_denied
+[25-Nov-2025 14:09:44 UTC] GET parameters: Array
+(
+    [error] => access_denied
+)
+
+[25-Nov-2025 14:09:44 UTC] POST parameters: Array
+(
+)
+
+[25-Nov-2025 14:09:44 UTC] SERVER variables: Array
+(
+    [HTTP_HOST] => localhost:8080
+    [REQUEST_URI] => /google_callback.php?error=access_denied
+    [SERVER_PORT] => 8080
+)
+
+[25-Nov-2025 14:09:44 UTC] Google Callback - GET parameters found: Array
+(
+    [error] => access_denied
+)
+
+[25-Nov-2025 14:09:44 UTC] Google OAuth Error: No authorization code received. Details: Array
+(
+    [current_url] => http://localhost:8080/google_callback.php?error=access_denied
+    [expected_redirect_uri] => http://localhost:8080/google_callback.php
+    [get_params] => Array
+        (
+            [error] => access_denied
+        )
+
+    [server_port] => 8080
+    [http_host] => localhost:8080
+)
+
+[25-Nov-2025 14:09:44 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 14:09:47 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 14:09:58 UTC] === GOOGLE CALLBACK STARTED ===
+[25-Nov-2025 14:09:58 UTC] Full URL: http://localhost:8080/google_callback.php?code=4%2F0Ab32j914nh7x0z3GwdvIrDyTv6AfM4MsmqrBq30-NoCcirqzGev7jiVgktXLT3377gMxhw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent
+[25-Nov-2025 14:09:58 UTC] GET parameters: Array
+(
+    [code] => 4/0Ab32j914nh7x0z3GwdvIrDyTv6AfM4MsmqrBq30-NoCcirqzGev7jiVgktXLT3377gMxhw
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email openid
+    [authuser] => 0
+    [prompt] => consent
+)
+
+[25-Nov-2025 14:09:58 UTC] POST parameters: Array
+(
+)
+
+[25-Nov-2025 14:09:58 UTC] SERVER variables: Array
+(
+    [HTTP_HOST] => localhost:8080
+    [REQUEST_URI] => /google_callback.php?code=4%2F0Ab32j914nh7x0z3GwdvIrDyTv6AfM4MsmqrBq30-NoCcirqzGev7jiVgktXLT3377gMxhw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=consent
+    [SERVER_PORT] => 8080
+)
+
+[25-Nov-2025 14:09:58 UTC] Google Callback - GET parameters found: Array
+(
+    [code] => 4/0Ab32j914nh7x0z3GwdvIrDyTv6AfM4MsmqrBq30-NoCcirqzGev7jiVgktXLT3377gMxhw
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email openid
+    [authuser] => 0
+    [prompt] => consent
+)
+
+[25-Nov-2025 14:09:58 UTC] Google OAuth Code Received: 4/0Ab32j914nh7x0z3Gw...
+[25-Nov-2025 14:09:58 UTC] Making token request with redirect_uri: http://localhost:8080/google_callback.php
+[25-Nov-2025 14:09:58 UTC] Token Response HTTP Code: 0
+[25-Nov-2025 14:09:58 UTC] Token Response: 
+[25-Nov-2025 14:09:58 UTC] Google OAuth Error: Google login failed: Failed to get access token. HTTP Code: 0 Response:  Curl Error: SSL certificate problem: unable to get local issuer certificate
+[25-Nov-2025 14:09:58 UTC] Security Event [google_login_failed]: Google login failed: Failed to get access token. HTTP Code: 0 Response:  Curl Error: SSL certificate problem: unable to get local issuer certificate - User:  - IP: ::1
+[25-Nov-2025 14:10:11 UTC] === GOOGLE CALLBACK STARTED ===
+[25-Nov-2025 14:10:11 UTC] Full URL: http://localhost:8080/google_callback.php?code=4%2F0Ab32j92kjsIp4iTxy81rEgc-j5kzhZH_V2dYIyYtj42ZbKZ0TgXBfXtHt59giWCRvPuWKw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&hd=carsu.edu.ph&prompt=consent
+[25-Nov-2025 14:10:11 UTC] GET parameters: Array
+(
+    [code] => 4/0Ab32j92kjsIp4iTxy81rEgc-j5kzhZH_V2dYIyYtj42ZbKZ0TgXBfXtHt59giWCRvPuWKw
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email openid
+    [authuser] => 1
+    [hd] => carsu.edu.ph
+    [prompt] => consent
+)
+
+[25-Nov-2025 14:10:11 UTC] POST parameters: Array
+(
+)
+
+[25-Nov-2025 14:10:11 UTC] SERVER variables: Array
+(
+    [HTTP_HOST] => localhost:8080
+    [REQUEST_URI] => /google_callback.php?code=4%2F0Ab32j92kjsIp4iTxy81rEgc-j5kzhZH_V2dYIyYtj42ZbKZ0TgXBfXtHt59giWCRvPuWKw&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=1&hd=carsu.edu.ph&prompt=consent
+    [SERVER_PORT] => 8080
+)
+
+[25-Nov-2025 14:10:11 UTC] Google Callback - GET parameters found: Array
+(
+    [code] => 4/0Ab32j92kjsIp4iTxy81rEgc-j5kzhZH_V2dYIyYtj42ZbKZ0TgXBfXtHt59giWCRvPuWKw
+    [scope] => email profile https://www.googleapis.com/auth/userinfo.profile https://www.googleapis.com/auth/userinfo.email openid
+    [authuser] => 1
+    [hd] => carsu.edu.ph
+    [prompt] => consent
+)
+
+[25-Nov-2025 14:10:11 UTC] Google OAuth Code Received: 4/0Ab32j92kjsIp4iTxy...
+[25-Nov-2025 14:10:11 UTC] Making token request with redirect_uri: http://localhost:8080/google_callback.php
+[25-Nov-2025 14:10:11 UTC] Token Response HTTP Code: 0
+[25-Nov-2025 14:10:11 UTC] Token Response: 
+[25-Nov-2025 14:10:11 UTC] Google OAuth Error: Google login failed: Failed to get access token. HTTP Code: 0 Response:  Curl Error: SSL certificate problem: unable to get local issuer certificate
+[25-Nov-2025 14:10:11 UTC] Security Event [google_login_failed]: Google login failed: Failed to get access token. HTTP Code: 0 Response:  Curl Error: SSL certificate problem: unable to get local issuer certificate - User:  - IP: ::1
+[25-Nov-2025 14:10:35 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 14:10:37 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 14:13:27 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 14:13:30 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 14:13:30 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 14:18:33 UTC] Security Event [login_failed]: Failed login attempt for email: contigafatima12@gmail.com - User:  - IP: ::1
+[25-Nov-2025 14:18:49 UTC] Security Event [login_success]: User logged in successfully - User: 2 - IP: 
+[25-Nov-2025 14:18:49 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 14:19:02 UTC] Security Event [logout]: User logged out - User: 2 - IP: 
+[25-Nov-2025 14:20:27 UTC] Security Event [oauth_error]: No authorization code received - User:  - IP: ::1
+[25-Nov-2025 14:27:55 UTC] Security Event [login_failed]: Failed login attempt for email: wenanacontiga@gmail.com - User:  - IP: ::1
+[25-Nov-2025 14:28:09 UTC] Security Event [login_failed]: Failed login attempt for email: wenanacontiga@gmail.com - User:  - IP: ::1
+[25-Nov-2025 14:28:37 UTC] Security Event [user_registered]: New user registered via email - User: 3 - IP: 
+[25-Nov-2025 14:28:53 UTC] Security Event [login_success]: User logged in successfully - User: 3 - IP: 
+[25-Nov-2025 14:28:53 UTC] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[25-Nov-2025 14:28:54 UTC] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[25-Nov-2025 14:29:00 UTC] Security Event [logout]: User logged out - User: 3 - IP: 
+[25-Nov-2025 14:49:42 UTC] Security Event [login_failed]: Failed login attempt for email: wenanacontiga@gmail.com - User:  - IP: ::1
+[25-Nov-2025 14:50:22 UTC] Security Event [user_registered]: New user registered via email - User: 2 - IP: 
+[25-Nov-2025 14:50:37 UTC] Security Event [login_success]: User logged in successfully - User: 2 - IP: 
+[25-Nov-2025 14:50:37 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 14:50:38 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 14:50:50 UTC] Security Event [logout]: User logged out - User: 2 - IP: 
+[25-Nov-2025 16:00:35 UTC] Security Event [login_success]: User logged in successfully - User: 2 - IP: 
+[25-Nov-2025 16:00:35 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 16:00:35 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 16:12:04 UTC] Security Event [login_success]: User logged in successfully - User: 2 - IP: 
+[25-Nov-2025 16:12:04 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 16:12:05 UTC] Security Event [page_access]: Accessed dashboard - User: 2 - IP: 
+[25-Nov-2025 16:12:20 UTC] Security Event [logout]: User logged out - User: 2 - IP: 
+[25-Nov-2025 16:12:36 UTC] Security Event [login_failed]: Failed login attempt for email: oliverosecontega@gmail.com - User:  - IP: ::1
+[28-Nov-2025 02:41:52 Europe/Berlin] Security Event [user_registered]: New user registered via email - User: 3 - IP: 
+[28-Nov-2025 02:42:28 Europe/Berlin] Security Event [login_success]: User logged in successfully - User: 3 - IP: 
+[28-Nov-2025 02:42:28 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:05:20 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:05:45 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:07:08 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:08:54 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:11:04 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:12:10 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:12:29 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:12:29 Europe/Berlin] Security Event [product_edit]: Started editing product: bugate - User: 3 - IP: 
+[28-Nov-2025 03:12:53 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:16:28 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:17:34 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:17:34 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:20:49 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:21:06 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:24:12 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:27:23 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 03:59:40 Europe/Berlin] Security Event [session_timeout]: Session expired due to inactivity - User: 3 - IP: 
+[28-Nov-2025 04:00:08 Europe/Berlin] Security Event [login_success]: User logged in successfully - User: 3 - IP: 
+[28-Nov-2025 04:00:08 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 04:59:09 Europe/Berlin] Security Event [session_timeout]: Session expired due to inactivity - User: 3 - IP: 
+[28-Nov-2025 05:01:13 Europe/Berlin] Security Event [login_success]: User logged in successfully - User: 3 - IP: 
+[28-Nov-2025 05:01:13 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 05:02:21 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[28-Nov-2025 05:04:35 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[30-Nov-2025 01:49:41 Europe/Berlin] Security Event [session_timeout]: Session expired due to inactivity - User: 3 - IP: 
+[30-Nov-2025 01:51:17 Europe/Berlin] Security Event [login_success]: User logged in successfully - User: 3 - IP: 
+[30-Nov-2025 01:51:17 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[30-Nov-2025 01:51:33 Europe/Berlin] Security Event [logout]: User logged out - User: 3 - IP: 
+[30-Nov-2025 04:25:06 Europe/Berlin] Security Event [login_success]: User logged in successfully - User: 3 - IP: 
+[30-Nov-2025 04:25:06 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[30-Nov-2025 04:25:50 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[30-Nov-2025 04:27:06 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[30-Nov-2025 04:30:52 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[30-Nov-2025 04:32:00 Europe/Berlin] Security Event [logout]: User logged out - User: 3 - IP: 
+[30-Nov-2025 04:33:27 Europe/Berlin] Security Event [login_success]: User logged in successfully - User: 3 - IP: 
+[30-Nov-2025 04:33:27 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 3 - IP: 
+[30-Nov-2025 06:01:11 Europe/Berlin] Security Event [session_timeout]: Session expired due to inactivity - User: 3 - IP: 
+[30-Nov-2025 06:20:45 Europe/Berlin] Security Event [registration_failed]: Duplicate email attempt: ibhancalubag17@gmail.com - User:  - IP: ::1
+[30-Nov-2025 06:21:30 Europe/Berlin] Security Event [user_registered]: New user registered via email - User: 4 - IP: 
+[30-Nov-2025 06:22:16 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 4 - IP: 
+[30-Nov-2025 06:22:16 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 4 - IP: 
+[30-Nov-2025 06:22:21 Europe/Berlin] Security Event [logout]: User logged out - User: 4 - IP: 
+[30-Nov-2025 06:23:35 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 4 - IP: 
+[30-Nov-2025 06:23:35 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 4 - IP: 
+[30-Nov-2025 06:25:53 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 4 - IP: 
+[30-Nov-2025 06:25:55 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 4 - IP: 
+[30-Nov-2025 06:26:00 Europe/Berlin] Security Event [logout]: User logged out - User: 4 - IP: 
+[30-Nov-2025 06:44:49 Europe/Berlin] Security Event [user_registered]: New user registered via email - User: 5 - IP: 
+[30-Nov-2025 06:50:48 Europe/Berlin] Security Event [user_registered]: New user registered via email - User: 6 - IP: 
+[30-Nov-2025 06:51:52 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 6 - IP: 
+[30-Nov-2025 06:51:52 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 6 - IP: 
+[30-Nov-2025 06:53:44 Europe/Berlin] Security Event [logout]: User logged out - User: 6 - IP: 
+[30-Nov-2025 06:55:27 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 6 - IP: 
+[30-Nov-2025 06:55:27 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 6 - IP: 
+[30-Nov-2025 06:55:37 Europe/Berlin] Security Event [logout]: User logged out - User: 6 - IP: 
+[30-Nov-2025 07:01:57 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 6 - IP: 
+[30-Nov-2025 07:01:57 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 6 - IP: 
+[30-Nov-2025 07:04:57 Europe/Berlin] Security Event [logout]: User logged out - User: 6 - IP: 
+[30-Nov-2025 08:02:48 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 6 - IP: 
+[30-Nov-2025 08:02:48 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 6 - IP: 
+[30-Nov-2025 08:03:35 Europe/Berlin] Security Event [logout]: User logged out - User: 6 - IP: 
+[30-Nov-2025 08:05:56 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 6 - IP: 
+[30-Nov-2025 08:05:56 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 6 - IP: 
+[30-Nov-2025 08:06:16 Europe/Berlin] Security Event [logout]: User logged out - User: 6 - IP: 
+[30-Nov-2025 08:23:55 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 6 - IP: 
+[30-Nov-2025 08:23:55 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 6 - IP: 
+[30-Nov-2025 08:24:00 Europe/Berlin] Security Event [logout]: User logged out - User: 6 - IP: 
+[30-Nov-2025 08:25:02 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 6 - IP: 
+[30-Nov-2025 08:25:02 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 6 - IP: 
+[30-Nov-2025 08:25:04 Europe/Berlin] Security Event [logout]: User logged out - User: 6 - IP: 
+[01-Dec-2025 00:32:11 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 6 - IP: 
+[01-Dec-2025 00:32:11 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 6 - IP: 
+[01-Dec-2025 00:32:18 Europe/Berlin] Security Event [logout]: User logged out - User: 6 - IP: 
+[01-Dec-2025 00:37:52 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 6 - IP: 
+[01-Dec-2025 00:37:52 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 6 - IP: 
+[01-Dec-2025 00:38:20 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 6 - IP: 
+[01-Dec-2025 00:42:07 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 6 - IP: 
+[01-Dec-2025 00:42:09 Europe/Berlin] Security Event [logout]: User logged out - User: 6 - IP: 
+[01-Dec-2025 01:49:06 Europe/Berlin] Security Event [user_registered]: New user registered via email - User: 7 - IP: 
+[01-Dec-2025 01:50:41 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 7 - IP: 
+[01-Dec-2025 01:50:41 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 7 - IP: 
+[01-Dec-2025 01:54:56 Europe/Berlin] Security Event [logout]: User logged out - User: 7 - IP: 
+[01-Dec-2025 02:22:59 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 7 - IP: 
+[01-Dec-2025 02:22:59 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 7 - IP: 
+[01-Dec-2025 02:23:05 Europe/Berlin] Security Event [logout]: User logged out - User: 7 - IP: 
+[01-Dec-2025 05:24:10 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 6 - IP: 
+[01-Dec-2025 05:24:10 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 6 - IP: 
+[01-Dec-2025 05:24:16 Europe/Berlin] Security Event [logout]: User logged out - User: 6 - IP: 
+[01-Dec-2025 07:25:31 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 7 - IP: 
+[01-Dec-2025 07:25:31 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 7 - IP: 
+[01-Dec-2025 07:25:39 Europe/Berlin] Security Event [logout]: User logged out - User: 7 - IP: 
+[01-Dec-2025 07:27:29 Europe/Berlin] Security Event [user_registered]: New user registered via email - User: 8 - IP: 
+[01-Dec-2025 07:28:06 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 8 - IP: 
+[01-Dec-2025 07:28:06 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 8 - IP: 
+[01-Dec-2025 07:28:11 Europe/Berlin] Security Event [logout]: User logged out - User: 8 - IP: 
+[01-Dec-2025 07:28:35 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 7 - IP: 
+[01-Dec-2025 07:28:35 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 7 - IP: 
+[01-Dec-2025 07:29:13 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 7 - IP: 
+[01-Dec-2025 07:30:37 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 7 - IP: 
+[01-Dec-2025 07:36:48 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 7 - IP: 
+[01-Dec-2025 07:37:16 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 7 - IP: 
+[01-Dec-2025 08:03:01 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 7 - IP: 
+[01-Dec-2025 08:03:05 Europe/Berlin] Security Event [logout]: User logged out - User: 7 - IP: 
+[02-Dec-2025 06:23:03 Europe/Berlin] Security Event [user_registered]: New user registered via email - User: 9 - IP: 
+[02-Dec-2025 06:24:02 Europe/Berlin] Security Event [login_success]: User logged in successfully after 2FA - User: 9 - IP: 
+[02-Dec-2025 06:24:02 Europe/Berlin] Security Event [page_access]: Accessed dashboard - User: 9 - IP: 
+[02-Dec-2025 06:24:08 Europe/Berlin] Security Event [logout]: User logged out - User: 9 - IP: 
